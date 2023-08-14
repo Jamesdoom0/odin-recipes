@@ -3,10 +3,15 @@
 }
 
 h1 {
-    color: aqua;
-    background-color: black;
+    color: white;
+    background-color: #1870ff;
     font-size: 50px;
     text-align: center;
+    border-radius: 10px;
+    border: 5px solid gold;
+    padding: 10px;
+
+    
 }
 
 h3 {
@@ -19,10 +24,38 @@ h3 {
     font-size: 30px;
 }
 
+.page-top {
+    font-size: 30px;
+}
+
+ol {
+    box-sizing: border-box;
+    width: 400px;
+}
+
 li {
-    color: red;
+    color: white;
+    background-color: #1870ff;
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin: 0px 10px -2px 0px;
+    box-sizing: border-box; /* Alternate box layout sets total size including margin and border */
+    height: auto;
+    width: 400px;
 }
 
 .recipe {
     font-size: 30px;
+}
+
+a {
+    color: black;
+}
+
+.links-bottom {
+    background-color:#1870ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
 }
